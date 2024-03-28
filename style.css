@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background: white;
+}
+/* -----------------------for navigation bar------------------------------- */
+.nav{
+    height: 67px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo-search{
+    display: flex;
+    align-items: center;
+    width: 800px;
+}
+
+#logo-search img{
+    width: 6.5rem;
+    height: 3rem;
+}
+
+#others{
+    display: flex;
+    justify-content: space-around;
+    width: 530.95px;
+}
+
+#search{
+    width: 100%;
+    height:40px;
+    border: 1rem;
+    background-color: rgba(179, 209, 235, 0.799);
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+#search i{
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.208);
+    margin: 0 1rem;
+}
+#search-items{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem
+}
+
+#login .btn{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: .5rem;
+    border-radius: .3rem;
+}
+#login .btn i{
+    font-size: 1.3rem;
+}
+#login .btn p{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+#cart{
+    display: flex;
+    align-items: center;
+}
+#cart i{
+    font-size: 1.3rem;
+}
+#cart p{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+#seller{
+    display: flex;
+    align-items: center;
+}
+#seller i{
+    font-size: 1.3rem;
+}
+#seller p{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+#three-dot{
+    display: flex;
+    align-items: center;
+}
+
+/* ---------------------------for body---------------------------- */
+
+.container{
+    width: 95%;
+    margin: 1rem auto;
+    background-color: whitesmoke;
+    height: fit-content;
+}
+
+/* ------------------subcontainer-1-------------------------- */
+
+#subcontainer-1{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(11,1.5fr);
+    color: black;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 1.1rem;
+    column-gap: 1rem;
+}
+
+#grocery{
+    grid-column: 2/3;
+}
+
+#subcontainer-1 img{
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+}
+#subcontainer-1 p{
+    text-align: left;
+    width: fit-content;
+}
+
+/* -----------------------------------Slideshow------------------ */
+
+.slideshow img{
+    width: 100%;
+    transition: transform .5s;
+}
+
+/* ---------------------------best electronic---------------------- */
+
+.subcontainer-2 {
+    padding: .7rem;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+}
+.subcontainer2-box{
+    margin: 1rem;
+    border: 1px solid black;
+    width: fit-content;
+    line-height: 1.5rem;
+    padding: .7rem;
+}
+h3{
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+.subcontainer2-box img{
+    height: 186.4px;
+    width: 186.4px;
+    transition: transform 0.5s;
+}
+
+.subcontainer2-box a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.subcontainer2-box p{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* ------------------------------------subcontainer-3---------------------------- */
+
+.subcontainer-3 {
+    padding: .7rem;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+}
+.subcontainer3-box{
+    margin: 1rem;
+    border: 1px solid black;
+    width: fit-content;
+    line-height: 1.5rem;
+    padding: .7rem;
+}
+
+.subcontainer3-box img{
+    height: 186.4px;
+    width: 186.4px;
+    transition: transform 0.5s;
+}
+
+.subcontainer3-box a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.subcontainer3-box p{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* ------------------------subcontainer-4------------------------------ */
+
+.subcontainer-4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+
+}
+
+.division{
+    margin: 1rem 0 1rem 0;
+    padding: 1rem;
+}
+.sub4-one{
+    background-color: rgba(128, 128, 128, 0.201);
+}
+.sub4-box{
+    border: 1px solid black;
+    padding: 1rem;
+}
+.sub4-one-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: .5rem;
+    row-gap: 1rem;
+}
+.sub4-box img{
+    border-radius: .5rem;
+    transition: transform .5s;
+}
+
+.sub4-box p{
+    font-size: 1.1rem;
+}
+
+.sub4-box a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* -------------------------sub4-two-------------------------------- */
+
+.sub4-two{
+    background-color: rgba(128, 128, 128, 0.201);
+}
+
+.sub4-two-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: .5rem;
+    row-gap: 1rem;
+}
+
+.sub4-three{
+    background-color: rgba(128, 128, 128, 0.201);
+}
+.sub4-three img{
+    width: 100%;
+    height: 100%;
+    transition: transform .5s;
+}
+/* -----------------------------container-1-------------------------- */
+
+
+.container-1{
+    padding: 2rem;
+}
+
+.head3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.712);
+}
+.content{
+    color: rgba(0, 0, 0, 0.712);
+    margin-top: 1rem;
+    font-size: .9rem;
+    line-height: 1.2rem;
+}
+
+/* -----------------------------footer----------------------------- */
+footer{
+    font-size: .8rem;
+}
+
+#box1{
+    background-color: rgba(0, 0, 0, 0.888);
+    color: white;
+    display: flex;
+}
+
+#box1 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#left{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    font-size: .8rem;
+}
+
+.left-box p{
+    margin-bottom: 1rem;
+}
+.left-box{
+    margin: 1rem;
+
+}
+.left-box a{
+    line-height: 1.2rem;
+}
+
+#right{
+    padding: 2rem;
+}
+
+.logo{
+    font-size: 1.2rem;
+    display: flex;
+}
+.logo a{
+    margin-right: .5rem;
+}
+
+#box2{
+    margin-top: 2px;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.888);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

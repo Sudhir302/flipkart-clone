@@ -1,0 +1,56 @@
+#btn-1:hover{
+    background-color: #2461e5 ;
+    color: white;
+    cursor: pointer;
+}
+#logo{
+    cursor: pointer;
+}
+
+#cart, #seller, #three-dot{
+    cursor: pointer;
+}
+
+/* ----------------------slideshow------------------------------- */
+
+/* @keyframes slide{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+#slide2{
+    animation: slide 5s ease-in-out 0s infinite;
+
+} */
+
+
+/* -------------------------best of electronics--------------------- */
+img:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.subcontainer-2{
+    overflow-x: auto;
+}
+/* ------------------------Beauty, food, toys and more----------------- */
+
+.subcontainer-3{
+    overflow-x: auto;
+}
+/* ----------------------------subcontainer 4---------------------- */
+
+.subcontainer-4{
+    overflow-x: auto;
+}
+
+/* -----------------------footer----------------------------- */
+
+.left-box a:hover{
+    border-bottom: 1px solid white;
+    width: fit-content;
+}

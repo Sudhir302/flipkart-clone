@@ -1,0 +1,28 @@
+/* -----------------max-width:1000px--------------------------- */
+
+@media screen and (max-width:1000px){
+    #others p{
+        display: none;
+    }
+    #login p{
+        display: inline;
+    }
+
+
+}
+
+
+/* ---------------------max-width-855----------------------- */
+
+@media screen and (max-width:856px){
+    #subcontainer-1{
+        overflow-x: auto;
+        white-space:nowrap;
+    }
+
+    #subcontainer-1 div{
+        display: inline-block;
+        white-space: nowrap;
+    }
+    
+}
